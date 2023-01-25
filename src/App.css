@@ -8,3 +8,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+body {
+  background-color: #6596AE;
+}
+
+.spot-img {
+  max-height: 200px;
+}
