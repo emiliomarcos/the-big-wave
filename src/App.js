@@ -13,7 +13,6 @@ export default function App() {
         <div className="surf-spots">
           <h3>🌊 Berawa: </h3>
             <img src="https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg" alt="Berawa" className="spot-img"/>
-            <p></p>
           <h3>🌊 Batu Bolong: </h3>
             <img src="https://i.ytimg.com/vi/vSOlFG_v9JQ/maxresdefault.jpg" alt="Batu Bolong" className="spot-img"/>
           <h3>🌊 Echo: </h3>
