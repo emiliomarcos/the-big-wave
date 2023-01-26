@@ -5,8 +5,10 @@ export default function SurfSpot(props) {
     <div>
       <h3>
         🌊 {props.spot.title}
-        {props.spot.description}
       </h3>
+      <p>
+        {props.spot.description}
+      </p>
       <img src={props.spot.imageUrl} alt="Berawa" className="spot-img"/>
     </div>
   )
