@@ -14,7 +14,7 @@ const data = [
     location: "Canggu, Bali",
     latitude: -8.6595,
     longitude: 115.1301,
-    description: "Sandy beach break perfect for beginners. Very popular spot, may be corwded.",
+    description: "Sandy beach break perfect for beginners. Very popular spot, may be crowded.",
     imageUrl: "https://i.ytimg.com/vi/vSOlFG_v9JQ/maxresdefault.jpg"
   },
   {

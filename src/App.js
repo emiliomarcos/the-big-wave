@@ -21,7 +21,6 @@ export default function App() {
   })
   return (
     <div className="App">
-
         <div className="screens">
           <MapProvider>
             <MyMap />
@@ -30,9 +29,12 @@ export default function App() {
         </div>
         <div className="info">
           <div className="surf-spots">
-
-              <h1>Surf Spots 🏄‍♂️</h1>
-
+            <div className="location">
+              <h1>Canggu, Bali 🇮🇩</h1>
+            </div>
+            <div className="heading">
+              <h2>Surf Spots 🏄‍♂️</h2>
+            </div>
             {spots}
           </div>
         </div>

@@ -1,13 +1,13 @@
 .App {
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
   border: 1px, solid, black;
   width: 100%;
 }
 
 .screens {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
 }
@@ -15,10 +15,19 @@
 .info {
   display: flex;
   justify-content: center;
-  grid-row-start: 3;
+  grid-row-start: 2;
 }
 
-.surf-spots-title {
+.location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 body {
