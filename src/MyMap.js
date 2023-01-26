@@ -4,8 +4,8 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 
 
 function MyMap() {
-  console.log((115.1301 + 115.1254) / 2);
-  console.log((8.6595 + 8.6551) / 2);
+  // console.log((115.1301 + 115.1254) / 2);
+  // console.log((8.6595 + 8.6551) / 2);
   return (
     <Map
       id="mymap"
