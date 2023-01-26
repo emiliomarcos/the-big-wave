@@ -1,12 +1,33 @@
 .App {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 25% 25% 25% 25%;
+  border: 1px, solid, black;
+  width: 100%;
 }
 
-.AppContainer {
+.screens {
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  grid-row-start: 2;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 body {
@@ -15,4 +36,5 @@ body {
 
 .spot-img {
   max-height: 200px;
+  margin-top: 10px;
 }

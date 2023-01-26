@@ -22,10 +22,9 @@ function MyMap() {
         latitude: -8.6573,
         zoom: 13
       }}
-      style={{width: 800, height: 600}}
+      style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      // Public token
-      mapboxAccessToken={"pk.eyJ1IjoiZW1pbGlvbWFyY29zIiwiYSI6ImNsZGFkOHViODBoN2szb3N6bmRnYnZjcm4ifQ.foYqfhSQ1_tk_3FXm2eKBw"}
+      // mapboxAccessToken={}
     >
       {markers}
     </Map>
