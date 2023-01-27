@@ -3,6 +3,7 @@
   grid-template-columns: 1;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   width: 100%;
+  font-family: monospace;
 }
 
 .screens {
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: center;
   grid-row-start: 2;
-  margin-top: 80px;
+  margin-top: 300px;
 }
 
 .location {
