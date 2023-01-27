@@ -1,11 +1,12 @@
 import React from "react";
 import Map, { Marker } from "react-map-gl"
 import 'mapbox-gl/dist/mapbox-gl.css'
-import dataOther from "./dataOther";
+import data from "./data";
 
 
 function MyMap() {
-  const markers = dataOther.map(spot => {
+  const beaches = data.flat();
+  const markers = beaches.map(spot => {
     return (
       <Marker
         longitude={spot.longitude}
@@ -29,7 +30,7 @@ function MyMap() {
       }}
       style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      // mapboxAccessToken={}
+      mapboxAccessToken={"pk.eyJ1IjoiZW1pbGlvbWFyY29zIiwiYSI6ImNsZGFkOHViODBoN2szb3N6bmRnYnZjcm4ifQ.foYqfhSQ1_tk_3FXm2eKBw"}
     >
       {markers}
     </Map>
