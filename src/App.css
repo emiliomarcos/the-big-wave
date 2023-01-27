@@ -1,8 +1,7 @@
 .App {
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 25% 25% 25% 25%;
-  border: 1px, solid, black;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   width: 100%;
 }
 
@@ -16,6 +15,7 @@
   display: flex;
   justify-content: center;
   grid-row-start: 2;
+  margin-top: 80px;
 }
 
 .location {

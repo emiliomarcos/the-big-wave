@@ -12,7 +12,7 @@ export default function SurfSpot(props) {
       <p>
         {props.spot.forecast}
       </p>
-      <img src={props.spot.imageUrl} alt="Berawa" className="spot-img"/>
+      <img src={props.spot.imageUrl} alt="Surf Spot" className="spot-img"/>
     </div>
   )
 }

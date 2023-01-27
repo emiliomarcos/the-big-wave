@@ -2,11 +2,11 @@ import './App.css';
 import MyMap from './MyMap';
 import { MapProvider } from "react-map-gl";
 import SurfSpot from './SurfSpot';
-import data from './data';
+import dataOther from './dataOther';
 import Video from './Video';
 
 export default function App() {
-  const spots = data.map(spot => {
+  const spots = dataOther.map(spot => {
     return (
       <>
         <SurfSpot
@@ -30,7 +30,7 @@ export default function App() {
         <div className="info">
           <div className="surf-spots">
             <div className="location">
-              <h1>Canggu, Bali 🇮🇩</h1>
+              <h1>Uluwatu, Bali 🇮🇩</h1>
             </div>
             <div className="heading">
               <h2>Surf Spots 🏄‍♂️</h2>
