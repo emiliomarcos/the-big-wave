@@ -9,8 +9,10 @@ import React from 'react';
 export default function App() {
   const [locations, setLocations] = React.useState(data[0]);
 
+  const otherLocation = data.find(array => array !== locations)
+
   function handleClick() {
-    setLocations(data[1])
+    setLocations(otherLocation);
   }
 
   const spots = locations.map(spot => {
