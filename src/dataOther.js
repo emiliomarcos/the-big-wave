@@ -5,7 +5,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8111,
     longitude: 115.1038,
-    description: "Sandy beach break mixed with reefs, Beginner/intermediate level.",
+    description: "wrong info: Sandy beach break mixed with reefs, Beginner/intermediate level.",
     imageUrl: "https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg",
     forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore"
   },
@@ -15,7 +15,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8149,
     longitude: 115.0884,
-    description: "Sandy beach break perfect for beginners. Very popular spot, may be crowded.",
+    description: "wrong info: Sandy beach break perfect for beginners. Very popular spot, may be crowded.",
     imageUrl: "https://i.ytimg.com/vi/vSOlFG_v9JQ/maxresdefault.jpg",
     forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore"
   },
@@ -25,7 +25,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.7920,
     longitude: 115.1234,
-    description: "Reef break more suitable for advanced surfers. Hot spot for competitions.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Hot spot for competitions.",
     imageUrl: "https://i.ytimg.com/vi/0eAxg5tHtMk/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
@@ -35,7 +35,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8057,
     longitude: 115.1130,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
@@ -45,7 +45,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8487,
     longitude: 115.1710,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
@@ -55,7 +55,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.7993,
     longitude: 115.1177,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
@@ -65,7 +65,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8089,
     longitude: 115.1073,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
@@ -75,7 +75,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8392,
     longitude: 115.0934,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
@@ -85,7 +85,7 @@ const dataOther = [
     location: "Uluwatu, Bali",
     latitude: -8.8135,
     longitude: 115.0962,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   }

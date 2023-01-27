@@ -38,7 +38,7 @@ const data = [
     description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
-  },
+  }
 ]
 
 export default data;
