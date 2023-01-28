@@ -32,15 +32,15 @@ export default function App() {
     <div className="App">
         <div className="screens">
           <MapProvider>
-            <MyMap />
+            <MyMap lat={locations[0].latitude} long={locations[0].longitude} locs={locations} oths={otherLocation}/>
           </MapProvider>
-          <Video />
+          <Video link={locations[0].videoUrl}/>
         </div>
         <div className="info">
           <div className="surf-spots">
             <div className="location">
-              <button onClick={handleClick}>click</button>
-              <h1>{locations[0].location}</h1>
+              <button onClick={handleClick} className="click">{otherLocation[0].location}</button>
+              <h1>📍 {locations[0].location}</h1>
               {/* <h1>Uluwatu, Bali 🇮🇩</h1> */}
               {/* <h1>🌊 Big Waves of the World 🌎</h1> */}
             </div>
