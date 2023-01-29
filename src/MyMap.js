@@ -5,6 +5,18 @@ import data from "./data";
 
 
 function MyMap(props) {
+  const [coordinates , setCoordinates] = React.useState({
+    longitude: props.locs[0].longitude,
+    latitude: props.locs[0].latitude,
+    zoom: 12
+  })
+  React.useEffect(() => {
+    setCoordinates({
+      ...coordinates,
+      longitude: props.locs[0].longitude,
+      latitude: props.locs[0].latitude
+    })
+  }, [props.locs])
   const beaches = data.flat();
   const markers = beaches.map(spot => {
     return (
@@ -15,14 +27,18 @@ function MyMap(props) {
       />
     )
   })
+  console.log(coordinates)
+  // console.log(props.locs[0].longitude);
+  // console.log(props.locs[0].latitude);
 
   return (
     <Map
       id="mymap"
+      key={coordinates.longitude + coordinates.latitude}
       initialViewState={{
-        longitude: props.locs[0].longitude,
-        latitude: props.locs[0].latitude,
-        zoom: 12
+        longitude: coordinates.longitude,
+        latitude: coordinates.latitude,
+        zoom: coordinates.zoom
       }}
       // initialViewState={{
       //   longitude: 115.0884,
@@ -31,7 +47,7 @@ function MyMap(props) {
       // }}
       style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      // mapboxAccessToken={}
+      mapboxAccessToken={"pk.eyJ1IjoiZW1pbGlvbWFyY29zIiwiYSI6ImNsZGFkOHViODBoN2szb3N6bmRnYnZjcm4ifQ.foYqfhSQ1_tk_3FXm2eKBw"}
     >
       {markers}
     </Map>

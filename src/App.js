@@ -5,6 +5,8 @@ import SurfSpot from './SurfSpot';
 import data from './data';
 import Video from './Video';
 import React from 'react';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
 export default function App() {
   const [locations, setLocations] = React.useState(data[0]);
@@ -29,7 +31,9 @@ export default function App() {
     )
   })
   return (
-    <div className="App">
+    <>
+      <Navbar />
+      <div className="App">
         <div className="screens">
           <MapProvider>
             <MyMap lat={locations[0].latitude} long={locations[0].longitude} locs={locations} oths={otherLocation}/>
@@ -50,6 +54,8 @@ export default function App() {
             {spots}
           </div>
         </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 }
