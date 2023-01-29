@@ -2,7 +2,7 @@ import './App.css';
 import MyMap from './MyMap';
 import { MapProvider } from "react-map-gl";
 import SurfSpot from './SurfSpot';
-import data from './data';
+import dataMore from './dataMore';
 import Video from './Video';
 import React from 'react';
 import Footer from './Footer';
@@ -10,9 +10,9 @@ import Navbar from './Navbar';
 import dataBig from './dataBig';
 
 export default function App() {
-  const [locations, setLocations] = React.useState(data[0]);
+  const [locations, setLocations] = React.useState(dataMore[0]);
 
-  const otherLocation = data.find(array => array !== locations)
+  const otherLocation = dataMore.find(array => array !== locations)
 
   function handleClick() {
     setLocations(otherLocation);
