@@ -5,6 +5,18 @@ import data from "./data";
 
 
 function MyMap(props) {
+  const [coordinates , setCoordinates] = React.useState({
+    longitude: props.locs[0].longitude,
+    latitude: props.locs[0].latitude,
+    zoom: 12
+  })
+  React.useEffect(() => {
+    setCoordinates({
+      ...coordinates,
+      longitude: props.locs[0].longitude,
+      latitude: props.locs[0].latitude
+    })
+  }, [props.locs])
   const beaches = data.flat();
   const markers = beaches.map(spot => {
     return (
@@ -15,14 +27,18 @@ function MyMap(props) {
       />
     )
   })
+  console.log(coordinates)
+  // console.log(props.locs[0].longitude);
+  // console.log(props.locs[0].latitude);
 
   return (
     <Map
       id="mymap"
+      key={coordinates.longitude + coordinates.latitude}
       initialViewState={{
-        longitude: props.locs[0].longitude,
-        latitude: props.locs[0].latitude,
-        zoom: 12
+        longitude: coordinates.longitude,
+        latitude: coordinates.latitude,
+        zoom: coordinates.zoom
       }}
       // initialViewState={{
       //   longitude: 115.0884,
