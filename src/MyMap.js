@@ -1,14 +1,14 @@
 import React from "react";
 import Map, { Marker } from "react-map-gl"
 import 'mapbox-gl/dist/mapbox-gl.css'
-import data from "./data";
+import dataMore from "./dataMore";
 
 
 function MyMap(props) {
   const [coordinates , setCoordinates] = React.useState({
     longitude: props.locs[0].longitude,
     latitude: props.locs[0].latitude,
-    zoom: 12
+    zoom: 4
   })
   React.useEffect(() => {
     setCoordinates({
@@ -17,7 +17,7 @@ function MyMap(props) {
       latitude: props.locs[0].latitude
     })
   }, [props.locs])
-  const beaches = data.flat();
+  const beaches = dataMore.flat();
   const markers = beaches.map(spot => {
     return (
       <Marker
@@ -47,7 +47,7 @@ function MyMap(props) {
       // }}
       style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken={"pk.eyJ1IjoiZW1pbGlvbWFyY29zIiwiYSI6ImNsZGFkOHViODBoN2szb3N6bmRnYnZjcm4ifQ.foYqfhSQ1_tk_3FXm2eKBw"}
+      // mapboxAccessToken={}
     >
       {markers}
     </Map>
