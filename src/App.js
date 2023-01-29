@@ -6,6 +6,7 @@ import data from './data';
 import Video from './Video';
 import React from 'react';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 export default function App() {
   const [locations, setLocations] = React.useState(data[0]);
@@ -31,6 +32,7 @@ export default function App() {
   })
   return (
     <>
+      <Navbar />
       <div className="App">
         <div className="screens">
           <MapProvider>
