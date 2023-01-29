@@ -43,13 +43,22 @@ body {
   margin-top: 10px;
 }
 
-.click {
+.explore {
   background-color: transparent;
   border: none;
   border-radius: 5%;
   text-align: center;
   font-family: monospace;
-  margin-right: 50px;
+  margin-right: 100px;
+}
+
+.explore-bigwaves {
+  background-color: transparent;
+  border: none;
+  border-radius: 5%;
+  text-align: center;
+  font-family: monospace;
+  margin-left: 100px;
 }
 
 .footer {

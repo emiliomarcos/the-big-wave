@@ -2,19 +2,21 @@ const dataBig = [
   {
     id: 1,
     title: "Jaws",
-    location: "Hawaii, USA",
+    // location: "Hawaii, USA 🇺🇸",
+    location: "Planet Earth 🌎",
     latitude: -8.6638,
     longitude: 115.1359,
     startDate: "November",
     endDate: "Februrary",
     description: "Jaws is one of the original big wave spots, beautiful blue waters with huge waves.",
     imageUrl: "https://www.surfertoday.com/images/stories/jaws-peahi.jpg",
-    forecast: "• Forecast: 12-18ft  /  14s  /  15mph offshore"
+    forecast: "• Forecast: 12-18ft  /  14s  /  15mph offshore",
+    videoUrl: "https://www.youtube.com/embed/gS6LJgfR1AM?autoplay=1&amp;mute=1&amp;controls=0"
   },
   {
     id: 2,
     title: "Mavericks",
-    location: "California, USA",
+    location: "California, USA 🇺🇸",
     latitude: -8.6638,
     longitude: 115.1359,
     startDate: "November",
@@ -98,7 +100,7 @@ const dataBig = [
   {
     id: 9,
     title: "Pipeline",
-    location: "Hawaii, USA",
+    location: "Hawaii, USA 🇺🇸",
     latitude: -8.6638,
     longitude: 115.1359,
     startDate: "November",
@@ -110,7 +112,7 @@ const dataBig = [
   {
     id: 10,
     title: "Ghost Tree",
-    location: "California, USA",
+    location: "California, USA 🇺🇸",
     latitude: -8.6638,
     longitude: 115.1359,
     startDate: "November",
