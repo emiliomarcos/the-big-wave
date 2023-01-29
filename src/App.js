@@ -43,7 +43,7 @@ export default function App() {
         <div className="info">
           <div className="surf-spots">
             <div className="location">
-              <button onClick={handleClick} className="click">{otherLocation[0].location}</button>
+              <button onClick={handleClick} className="click">Explore other</button>
               <h1>📍 {locations[0].location}</h1>
               {/* <h1>Uluwatu, Bali 🇮🇩</h1> */}
               {/* <h1>🌊 Big Waves of the World 🌎</h1> */}
