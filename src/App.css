@@ -1,9 +1,12 @@
+body {
+  font-family: monospace;
+}
+
 .App {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   width: 100%;
-  font-family: monospace;
 }
 
 .screens {
@@ -47,4 +50,24 @@ body {
   text-align: center;
   font-family: monospace;
   margin-right: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  border-color: black;
+}
+
+.footer-tag {
+  margin-left: 20px;
+}
+
+.accounts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.accounts-link {
+  margin-right: 20px;
 }
