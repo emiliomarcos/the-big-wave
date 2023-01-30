@@ -1,15 +1,15 @@
 const dataMore = [
   [{
     id: 1,
-    title: "Trestles",
-    location: "Santa Cruz, California 🇺🇸",
-    latitude: 33.3813,
-    longitude: -117.5333,
-    description: "World-famous surf spot known for its quality waves. Can get crowded during peak surf seasons.",
-    imageUrl: "https://www.surfertoday.com/images/stories/lowertrestles2.jpg",
+    title: "Ocean Beach",
+    location: "California 🇺🇸",
+    latitude: 37.7691,
+    longitude: -122.5109,
+    description: "Consistent waves and good surf conditions. Can get windy and cold.",
+    imageUrl: "https://i.ytimg.com/vi/hA3QoWqEQ0U/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
     videoUrl: "https://www.youtube.com/embed/YzTf9CyPpuo?autoplay=1&amp;mute=1&amp;controls=0",
-    zoom: 3
+    zoom: 4.25
   },
   {
     id: 2,
@@ -23,13 +23,13 @@ const dataMore = [
   },
   {
     id: 3,
-    title: "Ocean Beach",
-    location: "San Francisco, California 🇺🇸",
-    latitude: 37.7691,
-    longitude: -122.5109,
-    description: "Consistent waves and good surf conditions. Can get windy and cold.",
-    imageUrl: "https://i.ytimg.com/vi/hA3QoWqEQ0U/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
+    title: "Trestles",
+    location: "California 🇺🇸",
+    latitude: 33.3813,
+    longitude: -117.5333,
+    description: "World-famous surf spot known for its quality waves. Can get crowded during peak surf seasons.",
+    imageUrl: "https://www.surfertoday.com/images/stories/lowertrestles2.jpg",
+    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const dataMore = [
     forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
     rank: "Advanced",
     videoUrl: "https://www.youtube.com/embed/yO1izVb7vcM?autoplay=1&amp;mute=1&amp;controls=0",
-    zoom: 3
+    zoom: 6
     },
     {
     id: 6,
