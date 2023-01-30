@@ -2,7 +2,7 @@ import './App.css';
 import MyMap from './MyMap';
 import { MapProvider } from "react-map-gl";
 import SurfSpot from './SurfSpot';
-import dataMore from './dataMore';
+import data from './data';
 import Video from './Video';
 import React from 'react';
 import Footer from './Footer';
@@ -10,9 +10,11 @@ import Navbar from './Navbar';
 import dataBig from './dataBig';
 
 export default function App() {
-  const [locations, setLocations] = React.useState(dataMore[0]);
+  const [locations, setLocations] = React.useState(data[0]);
 
-  const otherLocation = dataMore.find(array => array !== locations)
+  const otherLocations = data.filter(array => array !== locations)
+  const index = Math.floor(Math.random() * otherLocations.length)
+  const otherLocation = otherLocations[index]
 
   function handleClick() {
     setLocations(otherLocation);
@@ -41,7 +43,7 @@ export default function App() {
       <div className="App">
         <div className="screens">
           <MapProvider>
-            <MyMap lat={locations[0].latitude} long={locations[0].longitude} locs={locations} oths={otherLocation}/>
+            <MyMap lat={locations[0].latitude} long={locations[0].longitude} zoom={locations[0].zoom} locs={locations} oths={otherLocation}/>
           </MapProvider>
           <Video link={locations[0].videoUrl}/>
         </div>

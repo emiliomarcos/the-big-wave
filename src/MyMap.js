@@ -1,23 +1,23 @@
 import React from "react";
 import Map, { Marker } from "react-map-gl"
 import 'mapbox-gl/dist/mapbox-gl.css'
-import dataMore from "./dataMore";
+import data from "./data";
 
 
 function MyMap(props) {
   const [coordinates , setCoordinates] = React.useState({
     longitude: props.locs[0].longitude,
     latitude: props.locs[0].latitude,
-    zoom: 4
+    zoom: props.locs[0].zoom
   })
   React.useEffect(() => {
     setCoordinates({
-      ...coordinates,
       longitude: props.locs[0].longitude,
-      latitude: props.locs[0].latitude
+      latitude: props.locs[0].latitude,
+      zoom: props.locs[0].zoom
     })
   }, [props.locs])
-  const beaches = dataMore.flat();
+  const beaches = data.flat();
   const markers = beaches.map(spot => {
     return (
       <Marker
@@ -27,9 +27,6 @@ function MyMap(props) {
       />
     )
   })
-  console.log(coordinates)
-  // console.log(props.locs[0].longitude);
-  // console.log(props.locs[0].latitude);
 
   return (
     <Map

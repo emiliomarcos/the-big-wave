@@ -4,14 +4,15 @@ const dataBig = [
     title: "Jaws",
     // location: "Hawaii, USA 🇺🇸",
     location: "Planet Earth 🌎",
-    latitude: -8.6638,
-    longitude: 115.1359,
+    latitude: 0,
+    longitude: 0,
     startDate: "November",
     endDate: "Februrary",
     description: "Jaws is one of the original big wave spots, beautiful blue waters with huge waves.",
     imageUrl: "https://www.surfertoday.com/images/stories/jaws-peahi.jpg",
     forecast: "• Forecast: 12-18ft  /  14s  /  15mph offshore",
-    videoUrl: "https://www.youtube.com/embed/gS6LJgfR1AM?autoplay=1&amp;mute=1&amp;controls=0"
+    videoUrl: "https://www.youtube.com/embed/gS6LJgfR1AM?autoplay=1&amp;mute=1&amp;controls=0",
+    zoom: 0.7
   },
   {
     id: 2,
