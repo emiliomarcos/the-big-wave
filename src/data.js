@@ -8,7 +8,8 @@ const data = [
     description: "Sandy beach break mixed with reefs, Beginner/intermediate level.",
     imageUrl: "https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
-    videoUrl: "https://www.youtube.com/embed/pdGqoO-s_sg?autoplay=1&amp;mute=1&amp;controls=0"
+    videoUrl: "https://www.youtube.com/embed/pdGqoO-s_sg?autoplay=1&amp;mute=1&amp;controls=0",
+    zoom: 12
   },
   {
     id: 2,
@@ -49,7 +50,8 @@ const data = [
     description: "wrong info: Sandy beach break mixed with reefs, Beginner/intermediate level.",
     imageUrl: "https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg",
     forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore",
-    videoUrl: "https://www.youtube.com/embed/js258P4f1-s?autoplay=1&amp;mute=1&amp;controls=0"
+    videoUrl: "https://www.youtube.com/embed/js258P4f1-s?autoplay=1&amp;mute=1&amp;controls=0",
+    zoom: 11
   },
   {
     id: 6,
