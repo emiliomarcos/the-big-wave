@@ -12,7 +12,9 @@ import dataBig from './dataBig';
 export default function App() {
   const [locations, setLocations] = React.useState(data[0]);
 
-  const otherLocation = data.find(array => array !== locations)
+  const otherLocations = data.filter(array => array !== locations)
+  const index = Math.floor(Math.random() * otherLocations.length)
+  const otherLocation = otherLocations[index]
 
   function handleClick() {
     setLocations(otherLocation);
