@@ -8,13 +8,13 @@ function MyMap(props) {
   const [coordinates , setCoordinates] = React.useState({
     longitude: props.locs[0].longitude,
     latitude: props.locs[0].latitude,
-    zoom: 4
+    zoom: props.locs[0].zoom
   })
   React.useEffect(() => {
     setCoordinates({
-      ...coordinates,
       longitude: props.locs[0].longitude,
-      latitude: props.locs[0].latitude
+      latitude: props.locs[0].latitude,
+      zoom: props.locs[0].zoom
     })
   }, [props.locs])
   const beaches = dataMore.flat();

@@ -41,7 +41,7 @@ export default function App() {
       <div className="App">
         <div className="screens">
           <MapProvider>
-            <MyMap lat={locations[0].latitude} long={locations[0].longitude} locs={locations} oths={otherLocation}/>
+            <MyMap lat={locations[0].latitude} long={locations[0].longitude} zoom={locations[0].zoom} locs={locations} oths={otherLocation}/>
           </MapProvider>
           <Video link={locations[0].videoUrl}/>
         </div>

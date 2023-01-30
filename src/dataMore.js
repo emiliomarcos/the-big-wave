@@ -8,7 +8,8 @@ const dataMore = [
     description: "World-famous surf spot known for its quality waves. Can get crowded during peak surf seasons.",
     imageUrl: "https://www.surfertoday.com/images/stories/lowertrestles2.jpg",
     forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
-    videoUrl: "https://www.youtube.com/embed/YzTf9CyPpuo?autoplay=1&amp;mute=1&amp;controls=0"
+    videoUrl: "https://www.youtube.com/embed/YzTf9CyPpuo?autoplay=1&amp;mute=1&amp;controls=0",
+    zoom: 3
   },
   {
     id: 2,
@@ -50,7 +51,8 @@ const dataMore = [
     imageUrl: "https://i.ytimg.com/vi/Kyhb1o0W-hQ/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
     rank: "Advanced",
-    videoUrl: "https://www.youtube.com/embed/yO1izVb7vcM?autoplay=1&amp;mute=1&amp;controls=0"
+    videoUrl: "https://www.youtube.com/embed/yO1izVb7vcM?autoplay=1&amp;mute=1&amp;controls=0",
+    zoom: 3
     },
     {
     id: 6,
