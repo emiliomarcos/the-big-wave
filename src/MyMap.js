@@ -44,7 +44,7 @@ function MyMap(props) {
       // }}
       style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      // mapboxAccessToken={}
+      mapboxAccessToken={"pk.eyJ1IjoiZW1pbGlvbWFyY29zIiwiYSI6ImNsZGFkOHViODBoN2szb3N6bmRnYnZjcm4ifQ.foYqfhSQ1_tk_3FXm2eKBw"}
     >
       {markers}
     </Map>

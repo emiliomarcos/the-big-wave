@@ -48,7 +48,7 @@ const data = [
     latitude: -8.8111,
     longitude: 115.1038,
     description: "wrong info: Sandy beach break mixed with reefs, Beginner/intermediate level.",
-    imageUrl: "https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg",
+    imageUrl: "https://www.surfindonesia.com/wp-content/uploads/2020/09/padang-padang-right-baby-padang-padang.jpg?_t=1599516214",
     forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore",
     videoUrl: "https://www.youtube.com/embed/js258P4f1-s?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 11
@@ -60,7 +60,7 @@ const data = [
     latitude: -8.8149,
     longitude: 115.0884,
     description: "wrong info: Sandy beach break perfect for beginners. Very popular spot, may be crowded.",
-    imageUrl: "https://i.ytimg.com/vi/vSOlFG_v9JQ/maxresdefault.jpg",
+    imageUrl: "https://www.surfindonesia.com/wp-content/uploads/2020/07/temples-uluwatu.jpg?_t=1598347870",
     forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore"
   },
   {
@@ -70,7 +70,7 @@ const data = [
     latitude: -8.7920,
     longitude: 115.1234,
     description: "wrong info: Reef break more suitable for advanced surfers. Hot spot for competitions.",
-    imageUrl: "https://i.ytimg.com/vi/0eAxg5tHtMk/maxresdefault.jpg",
+    imageUrl: "https://i.ytimg.com/vi/SzCjNxcLTuI/maxresdefault.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
   {
@@ -80,7 +80,7 @@ const data = [
     latitude: -8.8057,
     longitude: 115.1130,
     description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
-    imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
+    imageUrl: "https://www.swellbali.com/wp-content/uploads/2020/02/bali-surfing-1-1024x683.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
   {
@@ -90,7 +90,7 @@ const data = [
     latitude: -8.8487,
     longitude: 115.1710,
     description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
-    imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
+    imageUrl: "https://indonesiansurfguide.com/wp-content/uploads/2021/08/Green-bowl-line-up-min.JPG-scaled.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
   {
@@ -100,7 +100,7 @@ const data = [
     latitude: -8.7993,
     longitude: 115.1177,
     description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
-    imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
+    imageUrl: "https://www.swellbali.com/wp-content/uploads/2021/05/7N2A7131-768x614.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
   {
@@ -110,7 +110,7 @@ const data = [
     latitude: -8.8089,
     longitude: 115.1073,
     description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
-    imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
+    imageUrl: "https://www.surfertoday.com/images/stories/surfingimpossibles.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
   {
@@ -120,7 +120,7 @@ const data = [
     latitude: -8.8392,
     longitude: 115.0934,
     description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
-    imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
+    imageUrl: "https://www.surfinbali.com/wp-content/uploads/2022/07/image-1024x683.webp",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   },
   {
@@ -130,7 +130,7 @@ const data = [
     latitude: -8.8135,
     longitude: 115.0962,
     description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
-    imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
+    imageUrl: "https://www.jonnymelon.com/wp-content/uploads/2022/11/padang-padang-beach-8-1-1440x959.jpg",
     forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
   }],
   [{
