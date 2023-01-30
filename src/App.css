@@ -5,7 +5,7 @@ body {
 .App {
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 600 auto;
   width: 100%;
 }
 
@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   grid-row-start: 2;
-  margin-top: 300px;
+  margin-top: 75px;
 }
 
 .location {

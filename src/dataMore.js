@@ -52,9 +52,9 @@ const dataMore = [
     forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
     rank: "Advanced",
     videoUrl: "https://www.youtube.com/embed/yO1izVb7vcM?autoplay=1&amp;mute=1&amp;controls=0",
-    zoom: 6
-    },
-    {
+    zoom: 7
+  },
+  {
     id: 6,
     title: "Kahului Harbor",
     location: "Maui, Hawaii 🇺🇸",
@@ -64,8 +64,8 @@ const dataMore = [
     imageUrl: "https://ec2-im-1.msw.ms/md/image.php?id=418881&type=PHOTOLAB&resize_type=STREAM_MEDIUM&fromS3",
     forecast: "• Forecast: 2-3ft / 10s / 5mph offshore",
     rank: "Beginner"
-    },
-    {
+  },
+  {
     id: 7,
     title: "Ho'okipa Beach",
     location: "Maui, Hawaii 🇺🇸",
@@ -75,8 +75,8 @@ const dataMore = [
     imageUrl: "https://spot-thumbnails.cdn-surfline.com/spots/5842041f4e65fad6a7708de6/5842041f4e65fad6a7708de6_1500.jpg",
     forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
     rank: "Advanced"
-    },
-    {
+  },
+  {
     id: 8,
     title: "Pu'u'auli Point",
     location: "Maui, Hawaii 🇺🇸",
@@ -86,7 +86,7 @@ const dataMore = [
     imageUrl: "https://lushpalm.com/wp-content/uploads/2017/11/oahu-surf-spots-off-the-wall.jpg",
     forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
     rank: "Intermediate"
-    }]
+  }]
 ]
 
 export default dataMore;
