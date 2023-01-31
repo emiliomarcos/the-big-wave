@@ -18,9 +18,6 @@ function MyMap(props) {
     })
   }, [props.locs])
   const beaches = data.flat();
-  // for (let i = 0; i < beaches.length; i++) {
-  //   console.log(beaches[i].title)
-  // }
   const markers = beaches.map(spot => {
     return (
       <Marker
@@ -40,14 +37,9 @@ function MyMap(props) {
         latitude: coordinates.latitude,
         zoom: coordinates.zoom
       }}
-      // initialViewState={{
-      //   longitude: 115.0884,
-      //   latitude: -8.8149,
-      //   zoom: 12
-      // }}
       style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      // mapboxAccessToken={}
+      mapboxAccessToken={process.env.REACT_APP_API_KEY}
     >
       {markers}
     </Map>
@@ -55,14 +47,3 @@ function MyMap(props) {
 }
 
 export default MyMap;
-
-// initialViewState={{
-//   longitude: 115.1277,
-//   latitude: -8.6573,
-//   zoom: 13
-// }}
-// initialViewState={{
-//   longitude: 115.0884,
-//   latitude: -8.8149,
-//   zoom: 12
-// }}

@@ -9,7 +9,7 @@ const data = [
     break: "Berawa Beach has a smooth, sandy bottom that creates consistent waves for surfers.",
     levels: "Beginner - Intermediate, Left & Right Break",
     imageUrl: "https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore",
+    forecast: "4-6ft  /  14s  /  10mph offshore",
     videoUrl: "https://www.youtube.com/embed/pdGqoO-s_sg?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 12
   },
@@ -23,7 +23,7 @@ const data = [
     break: "Batu Bolong Beach has a mixed bottom of rocks and sand that creates a unique surfing experience.",
     levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://i.ytimg.com/vi/vSOlFG_v9JQ/maxresdefault.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph offshore"
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const data = [
     break: "Echo Beach features a shallow reef bottom that provides powerful waves for advanced surfers.",
     levels: "Beginner - Intermediate, Right Break",
     imageUrl: "https://i.ytimg.com/vi/0eAxg5tHtMk/maxresdefault.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph offshore"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const data = [
     break: "Pererenan Beach has a flat, sandy bottom that creates fun and long rides for surfers of all levels.",
     levels: "Beginner - Intermediate, Left Break",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph offshore"
   }],
   [{
     id: 5,
@@ -162,14 +162,14 @@ const data = [
   [{
     id: 14,
     title: "Ocean Beach",
-    location: "California 🇺🇸",
+    location: "California, USA 🇺🇸",
     latitude: 37.7691,
     longitude: -122.5109,
     description: "A popular and lively beach with a long stretch of sand and a bustling atmosphere, great for swimming, sunbathing, and socializing.",
     break: "Ocean Beach has a wide sandy bottom that creates gentle and rolling waves, ideal for beginner surfers.",
     levels: "Intermediate, Right Break",
     imageUrl: "https://i.ytimg.com/vi/hA3QoWqEQ0U/maxresdefault.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore",
+    forecast: "4-6ft  /  14s  /  10mph offshore",
     videoUrl: "https://www.youtube.com/embed/YzTf9CyPpuo?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 4.25
   },
@@ -183,7 +183,7 @@ const data = [
     break: "Malibu Beach has a sandy bottom that creates fun and long rides for surfers of all levels.",
     levels: "Beginner - Intermediate, Left & Right Break",
     imageUrl: "https://malibuluxuryrealty.com/wp-content/uploads/2016/08/5036486731_5e873ab83b_b-1024x683.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph offshore"
   },
   {
     id: 16,
@@ -195,7 +195,7 @@ const data = [
     break: "Trestles Beach has a sandy bottom with a shallow reef, providing playful waves for intermediate surfers.",
     levels: "Intermediate - Advanced, Left Break",
     imageUrl: "https://www.surfertoday.com/images/stories/lowertrestles2.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore",
+    forecast: "4-6ft  /  14s  /  10mph offshore",
   },
   {
     id: 17,
@@ -207,7 +207,7 @@ const data = [
     break: "Huntington Beach has a wide, flat sandy bottom that creates consistent waves for surfers of all levels.",
     levels: "Beginner - Intermediate, Right Break",
     imageUrl: "https://i.ytimg.com/vi/WizqThrnyBE/maxresdefault.jpg",
-    forecast: "4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph offshore"
   }],
   [{
     id: 18,
