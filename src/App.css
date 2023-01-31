@@ -39,7 +39,7 @@ body {
 }
 
 .spot-img {
-  max-height: 200px;
+  max-width: 300px;
   margin-top: 10px;
 }
 

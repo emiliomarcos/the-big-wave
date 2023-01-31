@@ -7,10 +7,16 @@ export default function SurfSpot(props) {
         🌊 {props.spot.title}
       </h3>
       <p>
-        {props.spot.description}
+        • {props.spot.description}
       </p>
       <p>
-        {props.spot.forecast}
+        • {props.spot.levels}
+      </p>
+      <p>
+        • {props.spot.break}
+      </p>
+      <p>
+        • Forecast: {props.spot.forecast}
       </p>
       <img src={props.spot.imageUrl} alt="Surf Spot" className="spot-img"/>
     </div>

@@ -52,8 +52,6 @@ export default function App() {
             <div className="location">
               <button onClick={handleClick} className="explore">Explore Places 🌎</button>
               <h1>📍 {locations[0].location}</h1>
-              {/* <h1>Uluwatu, Bali 🇮🇩</h1> */}
-              {/* <h1>🌊 Big Waves of the World 🌎</h1> */}
               <button onClick={handleClickBig} className="explore-bigwaves">Explore Big Waves 🌊</button>
             </div>
             <div className="heading">
