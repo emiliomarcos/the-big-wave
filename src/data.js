@@ -5,9 +5,11 @@ const data = [
     location: "Canggu, Bali 🇮🇩",
     latitude: -8.6638,
     longitude: 115.1359,
-    description: "Sandy beach break mixed with reefs, Beginner/intermediate level.",
+    description: "A popular surf beach with soft sand and good waves, great for both beginner and experienced surfers.",
+    break: "Berawa Beach has a smooth, sandy bottom that creates consistent waves for surfers.",
+    levels: "Beginner - Intermediate, Left & Right Break",
     imageUrl: "https://i.ytimg.com/vi/XTuRFOLBzbU/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
+    forecast: "4-6ft  /  14s  /  10mph onshore",
     videoUrl: "https://www.youtube.com/embed/pdGqoO-s_sg?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 12
   },
@@ -17,9 +19,11 @@ const data = [
     location: "Canggu, Bali 🇮🇩",
     latitude: -8.6595,
     longitude: 115.1301,
-    description: "Sandy beach break perfect for beginners. Very popular spot, may be crowded.",
+    description: "A laid-back beach with plenty of cafes and restaurants, famous for its historic Hindu temple and laid-back atmosphere.",
+    break: "Batu Bolong Beach has a mixed bottom of rocks and sand that creates a unique surfing experience.",
+    levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://i.ytimg.com/vi/vSOlFG_v9JQ/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph onshore"
   },
   {
     id: 3,
@@ -27,9 +31,11 @@ const data = [
     location: "Canggu, Bali 🇮🇩",
     latitude: -8.6551,
     longitude: 115.1254,
-    description: "Reef break more suitable for advanced surfers. Hot spot for competitions.",
+    description: "A secluded and quiet beach with crystal clear water, surrounded by cliffs and great for snorkeling.",
+    break: "Echo Beach features a shallow reef bottom that provides powerful waves for advanced surfers.",
+    levels: "Beginner - Intermediate, Right Break",
     imageUrl: "https://i.ytimg.com/vi/0eAxg5tHtMk/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph onshore"
   },
   {
     id: 4,
@@ -37,9 +43,11 @@ const data = [
     location: "Canggu, Bali 🇮🇩",
     latitude: -8.6518,
     longitude: 115.1215,
-    description: "Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A quiet and serene beach known for its beautiful sunsets, perfect for relaxing and enjoying the peaceful atmosphere.",
+    break: "Pererenan Beach has a flat, sandy bottom that creates fun and long rides for surfers of all levels.",
+    levels: "Beginner - Intermediate, Left Break",
     imageUrl: "https://i.ytimg.com/vi/sXHrYzeh8Ro/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph onshore"
   }],
   [{
     id: 5,
@@ -47,9 +55,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8111,
     longitude: 115.1038,
-    description: "wrong info: Sandy beach break mixed with reefs, Beginner/intermediate level.",
+    description: "A small, scenic beach with a unique cave entrance and clear turquoise water, great for swimming and sunbathing.",
+    break: "Padang Padang Beach has a reef bottom that creates fast and hollow waves, ideal for experienced surfers.",
+    levels: "Level: Advanced, Right Break",
     imageUrl: "https://www.surfindonesia.com/wp-content/uploads/2020/09/padang-padang-right-baby-padang-padang.jpg?_t=1599516214",
-    forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore",
+    forecast: "6-9ft  /  16s  /  12mph offshore",
     videoUrl: "https://www.youtube.com/embed/js258P4f1-s?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 11
   },
@@ -59,9 +69,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8149,
     longitude: 115.0884,
-    description: "wrong info: Sandy beach break perfect for beginners. Very popular spot, may be crowded.",
+    description: "A hidden and isolated beach with soft sand, great for privacy and enjoying nature.",
+    break: "Ulu Beach boasts a coral reef bottom that creates challenging and consistent waves for intermediate surfers.",
+    levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://www.surfindonesia.com/wp-content/uploads/2020/07/temples-uluwatu.jpg?_t=1598347870",
-    forecast: "• Forecast: 6-9ft  /  16s  /  12mph offshore"
+    forecast: "6-9ft  /  16s  /  12mph offshore"
   },
   {
     id: 7,
@@ -69,9 +81,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.7920,
     longitude: 115.1234,
-    description: "wrong info: Reef break more suitable for advanced surfers. Hot spot for competitions.",
+    description: "A scenic and peaceful beach with a long stretch of sand and a few cafes, great for sunbathing and surfing.",
+    break: "Balangan Beach has a steep and rocky bottom that creates powerful waves for advanced surfers.",
+    levels: "Intermediate - Advanced, Left & Right Break",
     imageUrl: "https://i.ytimg.com/vi/SzCjNxcLTuI/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   },
   {
     id: 8,
@@ -79,9 +93,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8057,
     longitude: 115.1130,
-    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A popular surf beach with a laid-back vibe and stunning cliff views, great for both surfing and relaxing.",
+    break: "Bingin Beach has a reef bottom with a shallow drop-off, creating exciting and fast waves for experienced surfers.",
+    levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://www.swellbali.com/wp-content/uploads/2020/02/bali-surfing-1-1024x683.jpg",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   },
   {
     id: 9,
@@ -89,9 +105,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8487,
     longitude: 115.1710,
-    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A secluded and pristine beach with a unique green lagoon, great for swimming and snorkeling.",
+    break: "Green Bowl Beach has a reef bottom with a deep trough, providing long and fast rides for skilled surfers.",
+    levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://indonesiansurfguide.com/wp-content/uploads/2021/08/Green-bowl-line-up-min.JPG-scaled.jpg",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   },
   {
     id: 10,
@@ -99,9 +117,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.7993,
     longitude: 115.1177,
-    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A well-known surf beach with long stretches of soft sand and great waves, popular among surfers and beachgoers alike.",
+    break: "Dreamland Beach has a shallow reef bottom with a sloping wave, perfect for beginners and intermediate surfers.",
+    levels: "Beginner - Intermediate, Left & Right Break",
     imageUrl: "https://www.swellbali.com/wp-content/uploads/2021/05/7N2A7131-768x614.jpg",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   },
   {
     id: 11,
@@ -109,9 +129,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8089,
     longitude: 115.1073,
-    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A challenging surf beach known for its consistent and powerful waves, popular among experienced surfers.",
+    break: "Impossibles Beach has a reef bottom that creates long and fast waves for experienced surfers.",
+    levels: "Advanced, Right Break",
     imageUrl: "https://www.surfertoday.com/images/stories/surfingimpossibles.jpg",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   },
   {
     id: 12,
@@ -119,9 +141,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8392,
     longitude: 115.0934,
-    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A secluded and breathtaking beach with a long stretch of white sand and clear water, great for swimming and sunbathing.",
+    break: "Nyang Nyang Beach has a sandy bottom with a shallow reef, providing fun and easy waves for all levels of surfers.",
+    levels: "Intermediate, Right Break",
     imageUrl: "https://www.surfinbali.com/wp-content/uploads/2022/07/image-1024x683.webp",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   },
   {
     id: 13,
@@ -129,9 +153,11 @@ const data = [
     location: "Uluwatu, Bali 🇮🇩",
     latitude: -8.8135,
     longitude: 115.0962,
-    description: "wrong info: Reef break more suitable for advanced surfers. Possibly beginners when small.",
+    description: "A peaceful and uncrowded beach with a scenic view of the surrounding hills, great for relaxing and enjoying the natural beauty.",
+    break: "Thomas Beach has a rocky bottom with a shallow reef, creating an exciting and challenging surf spot for advanced surfers.",
+    levels: "Beginner - Intermediate, Left & Right Break",
     imageUrl: "https://www.jonnymelon.com/wp-content/uploads/2022/11/padang-padang-beach-8-1-1440x959.jpg",
-    forecast: "• Forecast: 4-6ft  /  12s  /  8mph offshore"
+    forecast: "4-6ft  /  12s  /  8mph offshore"
   }],
   [{
     id: 14,
@@ -139,9 +165,11 @@ const data = [
     location: "California 🇺🇸",
     latitude: 37.7691,
     longitude: -122.5109,
-    description: "Consistent waves and good surf conditions. Can get windy and cold.",
+    description: "A popular and lively beach with a long stretch of sand and a bustling atmosphere, great for swimming, sunbathing, and socializing.",
+    break: "Ocean Beach has a wide sandy bottom that creates gentle and rolling waves, ideal for beginner surfers.",
+    levels: "Intermediate, Right Break",
     imageUrl: "https://i.ytimg.com/vi/hA3QoWqEQ0U/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
+    forecast: "4-6ft  /  14s  /  10mph onshore",
     videoUrl: "https://www.youtube.com/embed/YzTf9CyPpuo?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 4.25
   },
@@ -151,9 +179,11 @@ const data = [
     location: "Malibu, California 🇺🇸",
     latitude: 34.0306,
     longitude: -118.7786,
-    description: "Famous surf spot with a long-standing reputation. Can get crowded on weekends.",
+    description: "A famous and iconic beach with a long stretch of sand, great for surfing, sunbathing, and celebrity spotting.",
+    break: "Malibu Beach has a sandy bottom that creates fun and long rides for surfers of all levels.",
+    levels: "Beginner - Intermediate, Left & Right Break",
     imageUrl: "https://malibuluxuryrealty.com/wp-content/uploads/2016/08/5036486731_5e873ab83b_b-1024x683.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph onshore"
   },
   {
     id: 16,
@@ -161,9 +191,11 @@ const data = [
     location: "California 🇺🇸",
     latitude: 33.3813,
     longitude: -117.5333,
-    description: "World-famous surf spot known for its quality waves. Can get crowded during peak surf seasons.",
+    description: "A world-famous surf spot with long, fast, and fun waves, popular among both surfers and surf spectators.",
+    break: "Trestles Beach has a sandy bottom with a shallow reef, providing playful waves for intermediate surfers.",
+    levels: "Intermediate - Advanced, Left Break",
     imageUrl: "https://www.surfertoday.com/images/stories/lowertrestles2.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore",
+    forecast: "4-6ft  /  14s  /  10mph onshore",
   },
   {
     id: 17,
@@ -171,9 +203,11 @@ const data = [
     location: "Huntington Beach, California 🇺🇸",
     latitude: 33.6599,
     longitude: -117.9931,
-    description: "World-renowned surf spot known for its long, consistent waves. Can get crowded on weekends.",
+    description: "A bustling and lively beach with a wide stretch of sand and a strong surf culture, popular for surfing and sunbathing.",
+    break: "Huntington Beach has a wide, flat sandy bottom that creates consistent waves for surfers of all levels.",
+    levels: "Beginner - Intermediate, Right Break",
     imageUrl: "https://i.ytimg.com/vi/WizqThrnyBE/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft  /  14s  /  10mph onshore"
+    forecast: "4-6ft  /  14s  /  10mph onshore"
   }],
   [{
     id: 18,
@@ -181,10 +215,11 @@ const data = [
     location: "Maui, Hawaii 🇺🇸",
     latitude: 20.9638,
     longitude: -156.6345,
-    description: "A beautiful reef break with challenging waves, suited for advanced surfers.",
+    description: "A secluded and scenic bay with clear turquoise water, great for snorkeling, swimming, and surfing.",
+    break: "Honolua Bay has a reef bottom with a deep trough, providing long and fast rides for skilled surfers.",
+    levels: "Advanced, Left & Right Break",
     imageUrl: "https://i.ytimg.com/vi/Kyhb1o0W-hQ/maxresdefault.jpg",
-    forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
-    rank: "Advanced",
+    forecast: "4-6ft / 14s / 10mph offshore",
     videoUrl: "https://www.youtube.com/embed/yO1izVb7vcM?autoplay=1&amp;mute=1&amp;controls=0",
     zoom: 7
   },
@@ -194,10 +229,11 @@ const data = [
     location: "Maui, Hawaii 🇺🇸",
     latitude: 20.9033,
     longitude: -156.4507,
-    description: "A calm and sheltered beach break, perfect for beginner surfers.",
+    description: "A bustling commercial harbor with a few beaches and scenic views of the surrounding mountains, great for fishing, boating, and exploring.",
+    break: "Kahului Harbor has a rocky and sandy bottom that creates a unique and challenging surfing experience.",
+    levels: "Beginner, Left & Right Break",
     imageUrl: "https://ec2-im-1.msw.ms/md/image.php?id=418881&type=PHOTOLAB&resize_type=STREAM_MEDIUM&fromS3",
-    forecast: "• Forecast: 2-3ft / 10s / 5mph offshore",
-    rank: "Beginner"
+    forecast: "2-3ft / 10s / 5mph offshore"
   },
   {
     id: 20,
@@ -205,10 +241,11 @@ const data = [
     location: "Maui, Hawaii 🇺🇸",
     latitude: 20.9700,
     longitude: -156.3500,
-    description: "A world-famous surf spot with fast and hollow waves, suited for advanced surfers.",
+    description: "A world-famous surf spot with fast and hollow waves, popular among experienced surfers.",
+    break: "Ho'okipa Beach has a rocky reef bottom that provides powerful and fast waves for experienced surfers.",
+    levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://spot-thumbnails.cdn-surfline.com/spots/5842041f4e65fad6a7708de6/5842041f4e65fad6a7708de6_1500.jpg",
-    forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
-    rank: "Advanced"
+    forecast: "4-6ft / 14s / 10mph offshore"
   },
   {
     id: 21,
@@ -216,10 +253,11 @@ const data = [
     location: "Maui, Hawaii 🇺🇸",
     latitude: 21.0388,
     longitude: -156.6652,
-    description: "A fast and powerful reef break, suited for experienced surfers.",
+    description: "A secluded and pristine beach with a scenic view of the ocean, great for swimming and sunbathing in peace and quiet.",
+    break: "Pu'u'auli Point has a rocky reef bottom with a deep trough, creating challenging and fast waves for advanced surfers.",
+    levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://lushpalm.com/wp-content/uploads/2017/11/oahu-surf-spots-off-the-wall.jpg",
-    forecast: "• Forecast: 4-6ft / 14s / 10mph offshore",
-    rank: "Intermediate"
+    forecast: "4-6ft / 14s / 10mph offshore"
   }]
 ]
 

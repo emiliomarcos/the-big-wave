@@ -18,6 +18,9 @@ function MyMap(props) {
     })
   }, [props.locs])
   const beaches = data.flat();
+  // for (let i = 0; i < beaches.length; i++) {
+  //   console.log(beaches[i].title)
+  // }
   const markers = beaches.map(spot => {
     return (
       <Marker
@@ -44,7 +47,7 @@ function MyMap(props) {
       // }}
       style={{width: 800, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken={"pk.eyJ1IjoiZW1pbGlvbWFyY29zIiwiYSI6ImNsZGFkOHViODBoN2szb3N6bmRnYnZjcm4ifQ.foYqfhSQ1_tk_3FXm2eKBw"}
+      // mapboxAccessToken={}
     >
       {markers}
     </Map>
