@@ -258,7 +258,95 @@ const data = [
     levels: "Intermediate - Advanced, Right Break",
     imageUrl: "https://lushpalm.com/wp-content/uploads/2017/11/oahu-surf-spots-off-the-wall.jpg",
     forecast: "4-6ft / 14s / 10mph offshore"
-  }]
+  }],
+  [{
+    id: 22,
+    title: "Sayulita",
+    location: "Nayarit, Mexico 🇲🇽",
+    latitude: 20.9279,
+    longitude: -105.4541,
+    description: "A lively and vibrant surf town with a great surf scene and lively nightlife, popular among both locals and tourists.",
+    break: "Sayulita Beach has a sandy bottom with a fun, peeling left and a hollow right, perfect for surfers of all levels.",
+    levels: "Beginner - Advanced, Left & Right Break",
+    imageUrl: "https://wildmex.com/wp-content/uploads/2021/03/waves-sayulita.jpg",
+    forecast: "2-5ft / 8s / 10mph offshore",
+    videoUrl: "https://www.youtube.com/embed/sDptJVgTbbU?autoplay=1&amp;mute=1&amp;controls=0",
+    zoom: 9
+    },
+    {
+    id: 23,
+    title: "San Pancho",
+    location: "Nayarit, Mexico 🇲🇽",
+    latitude: 20.9048,
+    longitude: -105.4593,
+    description: "A charming and relaxed surf town with a long, wide beach and a small town vibe, great for a laid-back surf holiday.",
+    break: "San Pancho Beach has a sandy bottom with a fun and mellow wave, ideal for beginner and intermediate surfers.",
+    levels: "Beginner - Intermediate, Right Break",
+    imageUrl: "https://www.lowpressure.co.uk/surftravelplanner/images/Nayarit.jpg",
+    forecast: "2-5ft / 8s / 10mph offshore"
+    },
+    {
+    id: 24,
+    title: "Punta de Mita",
+    location: "Nayarit, Mexico 🇲🇽",
+    latitude: 20.9069,
+    longitude: -105.4752,
+    description: "An exclusive and upscale surf town with world-class waves and luxury amenities, popular among pro surfers and the wealthy.",
+    break: "Punta de Mita has a rocky bottom with fast and hollow waves, ideal for experienced surfers.",
+    levels: "Intermediate - Advanced, Left & Right Break",
+    imageUrl: "https://villaexperience.com/wp-content/uploads/2021/12/san-pancho-surf-break-1024x683.jpeg",
+    forecast: "4-8ft / 12s / 12mph offshore"
+    },
+    {
+    id: 25,
+    title: "Lo de Marcos",
+    location: "Nayarit, Mexico 🇲🇽",
+    latitude: 21.1319,
+    longitude: -105.1786,
+    description: "A small and peaceful surf town with a serene beach and friendly locals, great for a quiet surf holiday.",
+    break: "Lo de Marcos Beach has a sandy bottom with a fun and mellow wave, ideal for beginner and intermediate surfers.",
+    levels: "Beginner - Intermediate, Right Break",
+    imageUrl: "https://www.playasyplazas.com/wp-content/uploads/2017/12/DSC_0179.jpg.webp",
+    forecast: "2-5ft / 8s / 10"
+    }],
+    [{
+      id: 26,
+      title: "Fistral Beach",
+      location: "Newquay, UK 🇬🇧",
+      latitude: 50.4154,
+      longitude: -5.0801,
+      description: "Famous surf spot with a wide sandy beach and consistent waves, great for surfers of all levels.",
+      break: "Fistral Beach has a sandy bottom that creates fun and rideable waves, ideal for beginners and experienced surfers alike.",
+      levels: "Beginner - Advanced, Right & Left Break",
+      imageUrl: "https://www.carvemag.com/wp-content/uploads/2019/03/watergate1.jpg",
+      forecast: "3-6ft / 10s / 15mph offshore",
+      videoUrl: "https://www.youtube.com/embed/0tVXrtxu7BU?autoplay=1&amp;mute=1&amp;controls=0",
+      zoom: 12
+      },
+      {
+      id: 27,
+      title: "Towan Beach",
+      location: "Newquay, UK 🇬🇧",
+      latitude: 50.4169,
+      longitude: -5.0797,
+      description: "Popular family beach with a large expanse of soft sand and safe swimming conditions.",
+      break: "Towan Beach has a gradual slope and minimal reef, providing easy and gentle waves for beginner surfers.",
+      levels: "Beginner, Right Break",
+      imageUrl: "https://www.surf-forecast.com/system/images/15023/large/Towan.jpg?1447720401",
+      forecast: "2-4ft / 8s / 10mph offshore"
+      },
+      {
+      id: 28,
+      title: "Great Western Beach",
+      location: "Newquay, UK 🇬🇧",
+      latitude: 50.4173,
+      longitude: -5.1047,
+      description: "Vibrant beach with a lively atmosphere and plenty of restaurants and cafes, great for a fun day out.",
+      break: "Great Western Beach has a sandy bottom that creates small and gentle waves, suitable for beginner surfers.",
+      levels: "Beginner, Right Break",
+      imageUrl: "http://4.bp.blogspot.com/-0_PiufXIp6U/TWFtBgbWNYI/AAAAAAAAADc/FUD2MUefYwI/s1600/1.jpg",
+      forecast: "2-3ft / 6s / 8mph offshore"
+      }]
 ]
 
 export default data;
