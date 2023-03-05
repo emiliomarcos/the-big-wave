@@ -2,6 +2,8 @@ import React from "react";
 import Map, { Marker } from "react-map-gl"
 import 'mapbox-gl/dist/mapbox-gl.css'
 import data from "./data";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+Map.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
 
 function MyMap(props) {
