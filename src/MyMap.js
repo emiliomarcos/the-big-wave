@@ -39,7 +39,7 @@ function MyMap(props) {
       latitude={coordinates.latitude}
       longitude={coordinates.longitude}
       zoom={coordinates.zoom}
-      // onViewportChange={(viewport) => setCoordinates(viewport)}
+      onMove={e => setCoordinates(e.viewState)}
     >
       {markers}
     </Map>
