@@ -311,20 +311,32 @@ const data = [
     }],
     [{
       id: 26,
-      title: "Fistral Beach",
+      title: "Great Western Beach",
       location: "Newquay, UK 🇬🇧",
       latitude: 50.4154,
       longitude: -5.0801,
-      description: "Famous surf spot with a wide sandy beach and consistent waves, great for surfers of all levels.",
-      break: "Fistral Beach has a sandy bottom that creates fun and rideable waves, ideal for beginners and experienced surfers alike.",
-      levels: "Beginner - Advanced, Right & Left Break",
-      imageUrl: "https://www.carvemag.com/wp-content/uploads/2019/03/watergate1.jpg",
-      forecast: "3-6ft / 10s / 15mph offshore",
+      description: "Vibrant beach with a lively atmosphere and plenty of restaurants and cafes, great for a fun day out.",
+      break: "Great Western Beach has a sandy bottom that creates small and gentle waves, suitable for beginner surfers.",
+      levels: "Beginner, Right Break",
+      imageUrl: "http://4.bp.blogspot.com/-0_PiufXIp6U/TWFtBgbWNYI/AAAAAAAAADc/FUD2MUefYwI/s1600/1.jpg",
+      forecast: "2-3ft / 8s / 8mph offshore",
       videoUrl: "https://www.youtube.com/embed/0tVXrtxu7BU?autoplay=1&amp;mute=1&amp;controls=0",
       zoom: 12
       },
       {
       id: 27,
+      title: "Fistral Beach",
+      location: "Newquay, UK 🇬🇧",
+      latitude: 50.4173,
+      longitude: -5.1047,
+      description: "Famous surf spot with a wide sandy beach and consistent waves, great for surfers of all levels.",
+      break: "Fistral Beach has a sandy bottom that creates fun and rideable waves, ideal for beginners and experienced surfers alike.",
+      levels: "Beginner - Advanced, Right & Left Break",
+      imageUrl: "https://www.carvemag.com/wp-content/uploads/2019/03/watergate1.jpg",
+      forecast: "3-6ft / 10s / 15mph offshore"
+      },
+      {
+      id: 28,
       title: "Towan Beach",
       location: "Newquay, UK 🇬🇧",
       latitude: 50.4169,
@@ -334,19 +346,7 @@ const data = [
       levels: "Beginner, Right Break",
       imageUrl: "https://www.surf-forecast.com/system/images/15023/large/Towan.jpg?1447720401",
       forecast: "2-4ft / 8s / 10mph offshore"
-      },
-      {
-      id: 28,
-      title: "Great Western Beach",
-      location: "Newquay, UK 🇬🇧",
-      latitude: 50.4173,
-      longitude: -5.1047,
-      description: "Vibrant beach with a lively atmosphere and plenty of restaurants and cafes, great for a fun day out.",
-      break: "Great Western Beach has a sandy bottom that creates small and gentle waves, suitable for beginner surfers.",
-      levels: "Beginner, Right Break",
-      imageUrl: "http://4.bp.blogspot.com/-0_PiufXIp6U/TWFtBgbWNYI/AAAAAAAAADc/FUD2MUefYwI/s1600/1.jpg",
-      forecast: "2-3ft / 6s / 8mph offshore"
-      }]
+    }]
 ]
 
 export default data;

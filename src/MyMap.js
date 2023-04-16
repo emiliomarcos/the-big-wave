@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Map, { Marker } from "react-map-gl";
+import Map, { Marker, Popup } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationPin, faLocationDot } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,6 @@ function MyMap(props) {
     zoom: props.locs[0].zoom,
   });
   const [hoveredPin, setHoveredPin] = useState(null);
-  console.log(hoveredPin)
 
   React.useEffect(() => {
     setCoordinates({
@@ -29,13 +28,26 @@ function MyMap(props) {
         key={spot.id}
         longitude={spot.longitude}
         latitude={spot.latitude}
-        // onClick={(e) => console.log(e.target.color = "#12353D")}
-        // onMouseEnter={(e) => console.log(spot.id)}
       >
         <div className="marker" onMouseEnter={() => setHoveredPin(spot)} onMouseLeave={() => setHoveredPin(null)}>
           <FontAwesomeIcon icon={hoveredPin && hoveredPin.id === spot.id ? faLocationDot : faLocationPin}/>
         </div>
       </Marker>
+    );
+  });
+
+  const popup = beaches.map((spot) => {
+    return (
+      <Popup
+        key={spot.id}
+        id={spot.id}
+        longitude={spot.longitude}
+        latitude={spot.latitude}
+        anchor="top"
+        closeButton={false}
+      >
+        {spot.title}
+      </Popup>
     );
   });
 
@@ -51,6 +63,7 @@ function MyMap(props) {
       onMove={e => setCoordinates(e.viewState)}
     >
       {markers}
+      {hoveredPin && popup.find(pin => pin.props.id === hoveredPin.id)}
     </Map>
   );
 }
