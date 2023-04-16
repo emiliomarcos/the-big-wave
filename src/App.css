@@ -90,3 +90,11 @@ body {
   border-color: black;
   padding-bottom: 15px;
 }
+
+.marker {
+  color: #12353D;
+}
+
+.marker:hover {
+  color: #061114;
+}

@@ -4,13 +4,13 @@ import { MapProvider } from "react-map-gl";
 import SurfSpot from './SurfSpot';
 import data from './data';
 import Video from './Video';
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import dataBig from './dataBig';
 
 export default function App() {
-  const [locations, setLocations] = React.useState(data[0]);
+  const [locations, setLocations] = useState(data[0]);
 
   const otherLocations = data.filter(array => array !== locations)
   const index = Math.floor(Math.random() * otherLocations.length)
