@@ -1,5 +1,6 @@
 body {
   font-family: monospace;
+  margin: 0;
 }
 
 .App {
@@ -35,7 +36,7 @@ body {
 }
 
 body {
-  background-color: #6596AE;
+  background-color: #A9C3D3;
 }
 
 .spot-img {
@@ -64,10 +65,11 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: solid;
+  /* border-top: solid;
   border-color: black;
-  border-width: thin;
+  border-width: thin; */
   margin-top: 15px;
+  background-color: #4A6F8A;
 }
 
 .footer-tag {
@@ -86,9 +88,9 @@ body {
 .navbar {
   display: flex;
   justify-content: space-around;
-  border-bottom: solid;
-  border-color: black;
+  padding-top: 15px;
   padding-bottom: 15px;
+  background-color: #5A7D99;
 }
 
 .marker {
@@ -97,4 +99,13 @@ body {
 
 .marker:hover {
   color: #061114;
+}
+
+.bigLogo {
+  width: 500px;
+}
+
+.mailIcon {
+  margin: 10px;
+  margin-right: 20px;
 }

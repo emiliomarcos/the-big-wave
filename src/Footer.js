@@ -1,13 +1,14 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Footer() {
   return (
     <div className="footer">
-        <p className="footer-tag">Surf inc</p>
+        <p className="footer-tag">The Big Wave</p>
         <div className="accounts">
-          <p className="accounts-link">social media?</p>
-          <p className="accounts-link">email?</p>
-          <p className="accounts-link">about?</p>
+          <FontAwesomeIcon icon={faEnvelope} size="xl" className="mailIcon"/>
         </div>
     </div>
   )

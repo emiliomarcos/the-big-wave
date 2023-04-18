@@ -11,7 +11,6 @@ export default function Forecast({ lat, long }) {
 
   return (
     <div>
-      <h3>Forecast!</h3>
     </div>
   )
 }
