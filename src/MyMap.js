@@ -56,7 +56,7 @@ function MyMap(props) {
       id="mymap"
       style={{ width: 800, height: 400 }}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken={process.env.REACT_APP_MAP_API_KEY}
+      mapboxAccessToken={process.env.REACT_APP_API_KEY}
       latitude={coordinates.latitude}
       longitude={coordinates.longitude}
       zoom={coordinates.zoom}
