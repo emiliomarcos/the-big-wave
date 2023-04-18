@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import dataBig from './dataBig';
+import Forecast from './Forecast';
 
 export default function App() {
   const [locations, setLocations] = useState(data[0]);
@@ -47,6 +48,7 @@ export default function App() {
           </MapProvider>
           <Video link={locations[0].videoUrl}/>
         </div>
+        <Forecast lat={locations[0].latitude} long={locations[0].longitude} />
         <div className="info">
           <div className="surf-spots">
             <div className="location">
