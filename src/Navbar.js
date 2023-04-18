@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <div className="navbar">
-        <h1>The Big Wave</h1>
+        <img src="https://see.fontimg.com/api/renderfont4/Yzy1o/eyJyIjoiZnMiLCJoIjoxMzAsInciOjIwMDAsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/VGhlIEJpZyBXYXZl/sacremende-distressed.png" alt="Surf fonts" className="bigLogo"/>
     </div>
   )
 }
