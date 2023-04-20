@@ -52,19 +52,21 @@ function MyMap(props) {
   });
 
   return (
-    <Map
-      id="mymap"
-      style={{ width: 800, height: 400 }}
-      mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken={process.env.REACT_APP_API_KEY}
-      latitude={coordinates.latitude}
-      longitude={coordinates.longitude}
-      zoom={coordinates.zoom}
-      onMove={e => setCoordinates(e.viewState)}
-    >
-      {markers}
-      {hoveredPin && popup.find(pin => pin.props.id === hoveredPin.id)}
-    </Map>
+    <div className="map-container">
+      <Map
+        id="mymap"
+        // style={{ width: 800, height: 400 }}
+        mapStyle="mapbox://styles/mapbox/streets-v9"
+        mapboxAccessToken={process.env.REACT_APP_API_KEY}
+        latitude={coordinates.latitude}
+        longitude={coordinates.longitude}
+        zoom={coordinates.zoom}
+        onMove={e => setCoordinates(e.viewState)}
+      >
+        {markers}
+        {hoveredPin && popup.find(pin => pin.props.id === hoveredPin.id)}
+      </Map>
+    </div>
   );
 }
 

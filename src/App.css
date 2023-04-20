@@ -16,6 +16,11 @@ body {
   justify-content: space-around;
 }
 
+.map-container {
+  width: 800px;
+  height: 400px;
+}
+
 .info {
   display: flex;
   justify-content: center;
@@ -109,3 +114,115 @@ body {
   margin: 10px;
   margin-right: 20px;
 }
+
+@media (max-width: 1400px) {
+  .map-container {
+    width: 700px;
+    height: 350px;
+  }
+
+  #myvideo {
+    width: 700px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .map-container {
+    width: 600px;
+    height: 300px;
+  }
+
+  #myvideo {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .screens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #myvideo {
+    margin-top: 30px;
+  }
+
+  .bigLogo {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .map-container {
+    width: 500px;
+    height: 250px;
+  }
+
+  #myvideo {
+    width: 500px;
+    height: 250px;
+  }
+
+  .bigLogo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .map-container {
+    width: 400px;
+    height: 200px;
+  }
+
+  #myvideo {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+
+
+/* @media (max-width: 768px) {
+  .bigLogo {
+    width: 300px;
+  }
+
+  .screens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explore,
+  .explore-bigwaves {
+    margin: 10px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .spot-img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bigLogo {
+    width: 250px;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .location {
+    flex-direction: column;
+  }
+
+  .explore,
+  .explore-bigwaves {
+    margin: 5px;
+  }
+} */
