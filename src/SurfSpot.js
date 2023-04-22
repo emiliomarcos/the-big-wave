@@ -1,24 +1,23 @@
 import React from "react";
 
-export default function SurfSpot(props) {
+export default function SurfSpot({ spot }) {
+  const { title, description, levels, type, imageUrl } = spot
+
   return (
     <div>
       <h3>
-        🌊 {props.spot.title}
+        🌊 {title}
       </h3>
       <p>
-        • {props.spot.description}
+        • {description}
       </p>
       <p>
-        • {props.spot.levels}
+        • {levels}
       </p>
       <p>
-        • {props.spot.break}
+        • {type}
       </p>
-      <p>
-        • Forecast: {props.spot.forecast}
-      </p>
-      <img src={props.spot.imageUrl} alt="Surf Spot" className="spot-img"/>
+      <img src={imageUrl} alt="Surf Spot" className="spot-img"/>
     </div>
   )
 }
