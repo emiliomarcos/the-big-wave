@@ -5,21 +5,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationPin, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import data from "./data";
 
-function MyMap(props) {
+function MyMap({ locs }) {
   const [coordinates, setCoordinates] = useState({
-    longitude: props.locs[0].longitude,
-    latitude: props.locs[0].latitude,
-    zoom: props.locs[0].zoom,
+    longitude: locs[0].longitude,
+    latitude: locs[0].latitude,
+    zoom: locs[0].zoom,
   });
   const [hoveredPin, setHoveredPin] = useState(null);
 
   React.useEffect(() => {
     setCoordinates({
-      longitude: props.locs[0].longitude,
-      latitude: props.locs[0].latitude,
-      zoom: props.locs[0].zoom,
+      longitude: locs[0].longitude,
+      latitude: locs[0].latitude,
+      zoom: locs[0].zoom,
     });
-  }, [props.locs]);
+  }, [locs]);
 
   const beaches = data.flat();
   const markers = beaches.map((spot) => {

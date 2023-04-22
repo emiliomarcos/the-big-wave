@@ -9,16 +9,13 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import dataBig from './dataBig';
 import Forecast from './Forecast';
+import { DropdownButton, Dropdown } from 'react-bootstrap';
 
 export default function App() {
   const [locations, setLocations] = useState(data[0]);
 
-  const otherLocations = data.filter(array => array !== locations)
-  const index = Math.floor(Math.random() * otherLocations.length)
-  const otherLocation = otherLocations[index]
-
-  function handleClick() {
-    setLocations(otherLocation);
+  function handleSelect(index) {
+    setLocations(data[index]);
   }
 
   function handleClickBig() {
@@ -38,20 +35,31 @@ export default function App() {
       </>
     )
   })
+
+  const dropdownItems = data.map((spots, index) => {
+    return (
+      <Dropdown.Item eventKey={index}>
+        {spots[0].location}
+      </Dropdown.Item>
+    )
+  })
+
   return (
     <>
       <Navbar />
       <div className="App">
         <div className="screens">
           <MapProvider>
-            <MyMap lat={locations[0].latitude} long={locations[0].longitude} zoom={locations[0].zoom} locs={locations} oths={otherLocation}/>
+            <MyMap lat={locations[0].latitude} long={locations[0].longitude} zoom={locations[0].zoom} locs={locations} />
           </MapProvider>
           <Video link={locations[0].videoUrl}/>
         </div>
         <div className="info">
           <div className="surf-spots">
             <div className="location">
-              <button onClick={handleClick} className="explore">Explore Places 🌎</button>
+              <DropdownButton title="Explore Places 🌎" className="explore" onSelect={handleSelect}>
+                {dropdownItems}
+              </DropdownButton>
               <h1>📍 {locations[0].location}</h1>
               <button onClick={handleClickBig} className="explore-bigwaves">Explore Big Waves 🌊</button>
             </div>
