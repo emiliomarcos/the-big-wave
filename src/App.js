@@ -48,13 +48,15 @@ export default function App() {
           </MapProvider>
           <Video link={locations[0].videoUrl}/>
         </div>
-        <Forecast lat={locations[0].latitude} long={locations[0].longitude} />
         <div className="info">
           <div className="surf-spots">
             <div className="location">
               <button onClick={handleClick} className="explore">Explore Places 🌎</button>
               <h1>📍 {locations[0].location}</h1>
               <button onClick={handleClickBig} className="explore-bigwaves">Explore Big Waves 🌊</button>
+            </div>
+            <div className="forecast">
+              <Forecast lat={locations[0].latitude} long={locations[0].longitude} />
             </div>
             <div className="heading">
               <h2>Surf Spots 🏄‍♂️</h2>
