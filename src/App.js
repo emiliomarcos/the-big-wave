@@ -57,17 +57,17 @@ export default function App() {
         <div className="info">
           <div className="surf-spots">
             <div className="location">
-              <DropdownButton title="Explore Places 🌎" className="explore" onSelect={handleSelect}>
+              <DropdownButton title="Explore Places 🌎" className="explore" onSelect={handleSelect} drop="start">
                 {dropdownItems}
               </DropdownButton>
-              <h1>📍 {locations[0].location}</h1>
+              <h2>📍 {locations[0].location}</h2>
               <button onClick={handleClickBig} className="explore-bigwaves">Explore Big Waves 🌊</button>
             </div>
             <div className="forecast">
               <Forecast lat={locations[0].latitude} long={locations[0].longitude} />
             </div>
             <div className="heading">
-              <h2>Surf Spots 🏄‍♂️</h2>
+              <h3>Surf Spots 🏄‍♂️</h3>
             </div>
             {spots}
           </div>
