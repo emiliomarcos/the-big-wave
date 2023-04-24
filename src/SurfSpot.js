@@ -5,9 +5,10 @@ export default function SurfSpot({ spot }) {
 
   return (
     <div>
-      <h3>
+      <h4>
         🌊 {title}
-      </h3>
+      </h4>
+      <br></br>
       <p>
         • {description}
       </p>

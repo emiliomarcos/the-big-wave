@@ -30,8 +30,8 @@ export default function Forecast({ lat, long }) {
 
   return (
     <div>
-      <h2>{`🌊 ${forecastData.waveHeight - 1}-${forecastData.waveHeight + 1} feet at ${forecastData.wavePeriod} secs`}</h2>
-      <h3>{`💨 ${forecastData.windSpeed} mph ${forecastData.windDirection} wind`}</h3>
+      <h3>{`🌊 ${forecastData.waveHeight - 1}-${forecastData.waveHeight + 1} feet at ${forecastData.wavePeriod} secs`}</h3>
+      <h4>{`💨 ${forecastData.windSpeed} mph ${forecastData.windDirection} wind`}</h4>
     </div>
   )
 }
