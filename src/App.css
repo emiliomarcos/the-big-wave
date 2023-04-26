@@ -47,9 +47,18 @@ body {
   margin-bottom: 50px;
 }
 
+.bold-heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .spot-img {
   max-width: 300px;
   margin-top: 10px;
+}
+
+.surf-spot {
+  margin-bottom: 100px;
 }
 
 .explore {
@@ -58,7 +67,7 @@ body {
   border-radius: 5%;
   text-align: center;
   font-family: monospace;
-  margin-top: 12px;
+  margin-top: 8px;
   margin-right: 100px;
   outline: none!important;
   box-shadow: none !important;
@@ -76,9 +85,6 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  /* border-top: solid;
-  border-color: black;
-  border-width: thin; */
   margin-top: 15px;
   background-color: #4A6F8A;
 }
@@ -208,48 +214,3 @@ body {
     height: 200px;
   }
 }
-
-
-
-/* @media (max-width: 768px) {
-  .bigLogo {
-    width: 300px;
-  }
-
-  .screens {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .explore,
-  .explore-bigwaves {
-    margin: 10px;
-  }
-
-  .heading {
-    font-size: 1.5rem;
-  }
-
-  .spot-img {
-    max-width: 200px;
-  }
-}
-
-@media (max-width: 480px) {
-  .bigLogo {
-    width: 250px;
-  }
-
-  .heading {
-    font-size: 1.2rem;
-  }
-
-  .location {
-    flex-direction: column;
-  }
-
-  .explore,
-  .explore-bigwaves {
-    margin: 5px;
-  }
-} */

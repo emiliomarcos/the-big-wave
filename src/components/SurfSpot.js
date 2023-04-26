@@ -4,11 +4,10 @@ export default function SurfSpot({ spot }) {
   const { title, description, levels, type, imageUrl } = spot
 
   return (
-    <div>
-      <h4>
+    <div className="surf-spot">
+      <h5 className="bold-heading">
         🌊 {title}
-      </h4>
-      <br></br>
+      </h5>
       <p>
         • {description}
       </p>
