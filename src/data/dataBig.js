@@ -2,7 +2,6 @@ const dataBig = [
   {
     id: 1,
     title: "Jaws",
-    // location: "Hawaii, USA 🇺🇸",
     location: "Planet Earth 🌎",
     latitude: 0,
     longitude: 0,

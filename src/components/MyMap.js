@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Map, { Marker, Popup } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationPin, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import data from "./data";
+import { data } from "../data";
 
 function MyMap({ locs }) {
   const [coordinates, setCoordinates] = useState({
@@ -13,7 +13,7 @@ function MyMap({ locs }) {
   });
   const [hoveredPin, setHoveredPin] = useState(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setCoordinates({
       longitude: locs[0].longitude,
       latitude: locs[0].latitude,
@@ -55,7 +55,6 @@ function MyMap({ locs }) {
     <div className="map-container">
       <Map
         id="mymap"
-        // style={{ width: 800, height: 400 }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
         mapboxAccessToken={process.env.REACT_APP_API_KEY}
         latitude={coordinates.latitude}

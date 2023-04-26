@@ -1,15 +1,9 @@
 import './App.css';
-import MyMap from './MyMap';
-import { MapProvider } from "react-map-gl";
-import SurfSpot from './SurfSpot';
-import data from './data';
-import Video from './Video';
 import React, { useState } from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import dataBig from './dataBig';
-import Forecast from './Forecast';
+import { Footer, Forecast, MyMap, Navbar, SurfSpot, Video } from './components';
+import { MapProvider } from "react-map-gl";
 import { DropdownButton, Dropdown } from 'react-bootstrap';
+import { data, dataBig } from './data';
 
 export default function App() {
   const [locations, setLocations] = useState(data[0]);
