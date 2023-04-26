@@ -23,9 +23,6 @@ export default function App() {
           key={spot.id}
           spot={spot}
         />
-        <br></br>
-        <br></br>
-        <br></br>
       </>
     )
   })
@@ -54,14 +51,14 @@ export default function App() {
               <DropdownButton title="Explore Places 🌎" className="explore" onSelect={handleSelect} drop="start">
                 {dropdownItems}
               </DropdownButton>
-              <h2>📍 {locations[0].location}</h2>
+              <h3 className="bold-heading">📍 {locations[0].location}</h3>
               <button onClick={handleClickBig} className="explore-bigwaves">Explore Big Waves 🌊</button>
             </div>
             <div className="forecast">
               <Forecast lat={locations[0].latitude} long={locations[0].longitude} />
             </div>
             <div className="heading">
-              <h3>Surf Spots 🏄‍♂️</h3>
+              <h4 className="bold-heading">Surf Spots 🏄‍♂️</h4>
             </div>
             {spots}
           </div>

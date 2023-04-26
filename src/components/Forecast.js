@@ -27,7 +27,7 @@ export default function Forecast({ lat, long }) {
       try {
         const response = await fetch(`https://api.stormglass.io/v2/weather/point?lat=${lat}&lng=${long}&params=${params}`, {
           headers: {
-            // "Authorization": process.env.REACT_APP_WEATHER_API_KEY
+            "Authorization": process.env.REACT_APP_WEATHER_API_KEY
           }
         });
         const data = await response.json();
@@ -47,8 +47,8 @@ export default function Forecast({ lat, long }) {
 
   return (
     <div>
-      <h3>{`🌊 ${forecastData.waveHeight > 1 ? forecastData.waveHeight - 2 : forecastData.waveHeight}-${forecastData.waveHeight > 1 ? forecastData.waveHeight : forecastData.waveHeight + 1} feet at ${forecastData.wavePeriod} secs`}</h3>
-      <h4>{`💨 ${forecastData.windSpeed} mph ${forecastData.windDirection} wind`}</h4>
+      <h4>{`🌊 ${forecastData.waveHeight > 1 ? forecastData.waveHeight - 2 : forecastData.waveHeight}-${forecastData.waveHeight > 1 ? forecastData.waveHeight : forecastData.waveHeight + 1} feet at ${forecastData.wavePeriod} secs`}</h4>
+      <h5>{`💨 ${forecastData.windSpeed} mph ${forecastData.windDirection} wind`}</h5>
       <br></br>
       <p>{formattedDate} at 12pm</p>
     </div>
