@@ -17,7 +17,7 @@ Over 50 spots to explore from.
 
 
 ## *Future Development* 🚧
-**The Big Wave** is continuously being improved, with more features and enhancements coming soon.
+No plans to improve **The Big Wave**. It was great as a very fun stepping stone project!
 
 
 ## *Getting Started* 🚀
